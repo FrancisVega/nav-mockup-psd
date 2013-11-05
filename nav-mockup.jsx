@@ -216,7 +216,10 @@ function createHTML (outputFolderStr, filename, html_href, portrait) {
 		var html_file =
 		'<!-- File created by MockupCreator Francis Vega -->\
 		<!DOCTYPE html>\
-		<meta name="viewport" content="width=device-width">\
+		<meta charset="utf-8">\
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">\
+		<meta name="description" content="">\
+        <meta name="viewport" content="width=device-width">\
 		<html>\
 			<head>\
 			<title>' + project_name.text + '</title>\
@@ -242,7 +245,10 @@ function createHTML (outputFolderStr, filename, html_href, portrait) {
 		var html_file =
 		'<!-- File created by MockupCreator Francis Vega -->\
 		<!DOCTYPE html>\
-		<meta name="viewport" content="width=device-width">\
+		<meta charset="utf-8">\
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">\
+		<meta name="description" content="">\
+        <meta name="viewport" content="width=device-width">\
 		<html>\
 			<head>\
 			<title>' + project_name.text + '</title>\
@@ -278,6 +284,11 @@ function createHTML_img_base (outputFolderStr, filename, html_href) {
 
 	var html_file = 
 	'<!-- File created by MockupCreator Francis Vega -->\
+	<!DOCTYPE html>\
+	<meta charset="utf-8">\
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">\
+	<meta name="description" content="">\
+	<meta name="viewport" content="width=device-width">\
 	<html>\
 		<title>' + project_name.text + '</title>\
 		<style>\
